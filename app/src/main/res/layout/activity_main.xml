@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/jankenText"
-        app:srcCompat="@drawable/choki" />
+        app:srcCompat="@drawable/choki"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/gu"
@@ -27,7 +28,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/choki"
         app:layout_constraintTop_toTopOf="@+id/choki"
-        app:srcCompat="@drawable/gu" />
+        app:srcCompat="@drawable/gu"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/pa"
@@ -38,7 +40,8 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toEndOf="@+id/choki"
         app:layout_constraintTop_toTopOf="@+id/choki"
-        app:srcCompat="@drawable/pa" />
+        app:srcCompat="@drawable/pa"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/jankenText"
